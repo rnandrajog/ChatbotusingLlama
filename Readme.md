@@ -30,8 +30,16 @@ This project uses Llama to create Chat assistant, it downloads the LLM locally a
 
 
 
-3. Installing dependencies
+4. Installing dependencies
     Dependencies can be downloaded using either PIP install command or via requirements.txt file. For this project, I have uses pip install command
-    run >pip install requests
+    run >pip install requests ollama
 
-4. Check the code in Requestllama.py file
+5. Check the code in Requestllama.py file
+
+6. Create custom model
+    create new Modelfile --check the content 
+    on command prompt run the following command to create new model name mario >ollama create mario -f  ./Modelfile
+    then run >ollama run mario
+    run >ollama list and you will see mario added in list
+    checkRequestUsingLlamaClient_customModel.py file which uses mario model - when running this file you will see similar line
+    Response from Ollama model: It's-a me, Mario! *moustache twirl*
