@@ -30,8 +30,8 @@ This project uses Llama to create Chat assistant, it downloads the LLM locally a
 
 
 
-3. Installing dependencies
+4. Installing dependencies
     Dependencies can be downloaded using either PIP install command or via requirements.txt file. For this project, I have uses pip install command
-    run >pip install requests
+    run >pip install requests ollama
 
-4. Check the code in Requestllama.py file
+5. Check the code in Requestllama.py file
