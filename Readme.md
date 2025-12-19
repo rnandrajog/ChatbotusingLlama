@@ -1,3 +1,4 @@
+# ChatbotusingLlama
 This project uses Llama to create Chat assistant, it downloads the LLM locally and doesn't need any external LLM. This page give step by step setup on how to develop and run this using Visual Studio Code
 
 1. Install Ollama
@@ -34,10 +35,3 @@ This project uses Llama to create Chat assistant, it downloads the LLM locally a
     run >pip install requests
 
 4. Check the code in Requestllama.py file
-
-
-    
-
-
-
-    
